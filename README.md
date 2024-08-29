@@ -24,5 +24,5 @@ The Data Lakehouse Readiness Score is a quantitative measure that assesses a dat
 
 Key:
 * R = Can read at least one of the open table formats
-* R*W* = Can read and write at least one of the open table formats
+* R\*W\* = Can read and write at least one of the open table formats
 * RW = Can read and write all 3 of major open table formats
