@@ -1,6 +1,6 @@
 # Data Lakehouse Readiness Score
 
-The Data Lakehouse Readiness Score is a quantitative measure that assesses a database's vendor support of Apache Iceberg, Apache Hudi and Delta Lake.  Some of the raw data to create the score can be found at https://github.com/sundeck-io/tableformats.
+The Data Lakehouse Readiness Score is a quantitative measure that assesses a database's vendor support of Apache Iceberg, Apache Hudi and Delta Lake using a data catalog like Hive Metastore (HMS), Glue, Iceberg REST Catalog, or Unity Catalog.  Some of the raw data to create the score can be found at https://github.com/sundeck-io/tableformats.
 
 |                        | Data Lakehouse Readiness Score |
 | ---------------------- | ------------------------------ |
@@ -23,6 +23,7 @@ The Data Lakehouse Readiness Score is a quantitative measure that assesses a dat
 | Umbra DB \| CedarDB    | No Data                        |
 
 Key:
-* R = Can read at least one of the open table formats
-* R\*W\* = Can read and write at least one of the open table formats
-* RW = Can read and write all 3 of major open table formats
+* R\* = Can read at least one of the open table formats
+* R = Can read at least one of the open table formats using a data catalog
+* R\*W\* = Can read and write at least one of the open table formats using a data catalog
+* RW = Can read and write all 3 of major open table formats using a data datalog
