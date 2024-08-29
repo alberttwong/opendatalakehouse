@@ -1,6 +1,6 @@
 # Data Lakehouse Readiness Score
 
-The Data Lakehouse Readiness Score is a quantitative measure that assesses a database's vendor support of Apache Iceberg, Apache Hudi and Delta Lake. 
+The Data Lakehouse Readiness Score is a quantitative measure that assesses a database's vendor support of Apache Iceberg, Apache Hudi and Delta Lake.  You can read a more detailed version at https://github.com/sundeck-io/tableformats
 
 |                        | Data Lakehouse Readiness Score |
 | ---------------------- | ------------------------------ |
