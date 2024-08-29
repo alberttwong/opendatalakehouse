@@ -4,14 +4,14 @@ The Data Lakehouse Readiness Score is a quantitative measure that assesses a dat
 
 |                        | Data Lakehouse Readiness Score |
 | ---------------------- | ------------------------------ |
-| Clickhouse             | R                              |
+| Clickhouse             | R\*                            |
 | StarRocks \| CelerData | R\*W\*                         |
-| Apache Druid \| Imply  | R                              |
+| Apache Druid \| Imply  | R\*                            |
 | PrestoDB               | R\*W\*                         |
 | TrinoDB \| StarBurst   | R\*W\*                         |
-| DuckDB \| Motherduck   | R                              |
-| AWS Redshift           | R                              |
-| GCP BigQuery           | R                              |
+| DuckDB \| Motherduck   | R\*                             |
+| AWS Redshift           | R\*                            |
+| GCP BigQuery           | R\*                            |
 | Snowflake              | R\*W\*                         |
 | Polars                 | R\*W\*                         |
 | Daft                   | R\*W\*                         |
