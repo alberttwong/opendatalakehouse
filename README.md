@@ -34,7 +34,7 @@ Key:
 ### Additional Reading
 * [Apache Hudi vs Delta Lake vs Apache Iceberg - Data Lakehouse Feature Comparison](https://www.onehouse.ai/blog/apache-hudi-vs-delta-lake-vs-apache-iceberg-lakehouse-feature-comparison)
 * [2024 Lakehouse Format Rundown: Engines & Gorillas](https://blog.sundeck.io/2024-lakehouse-format-rundown-7edd75015428)
-  * Some good stuff in there but it has biases.  However he doesn't accept PRs (eg. see my PR that has been waiting for months) and some of the data is out of date. 
+  * Some good stuff in there but biases?.  Read the comments to the article.  Also he doesn't accept PRs (eg. see my PR that has been waiting for months) and some of the data is out of date. 
 * [Why some OLAP databases are faster than others](https://github.com/alberttwong/databasecomparison)
 * [Why are there benchmarks for some databases but not for others? You can thank Oracle and where are we now?](https://atwong.medium.com/why-are-there-benchmarks-for-some-databases-but-not-for-others-80f628f0b679)
 * [Open Source and Closed Source OLAP databases that can run TPC-H and TPC-DS benchmarks](https://atwong.medium.com/olap-databases-that-can-run-tpc-h-and-tpc-ds-benchmarks-6b4e5300f45b)
