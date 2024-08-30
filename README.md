@@ -35,3 +35,4 @@ Key:
 * Some of the raw data to create the score can be found at https://github.com/sundeck-io/tableformats.
   * However he doesn't accept PRs (eg. see my PR that has been waiting for months) and some of the data is out of date. 
 * [Why some OLAP databases are faster than others](https://github.com/alberttwong/databasecomparison)
+* [Why are there benchmarks for some databases but not for others? You can thank Oracle and where are we now?](https://atwong.medium.com/why-are-there-benchmarks-for-some-databases-but-not-for-others-80f628f0b679)
