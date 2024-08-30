@@ -32,4 +32,5 @@ Key:
 
 ### Additional Reading
 * Some of the raw data to create the score can be found at https://github.com/sundeck-io/tableformats.
+  * However he doesn't accept PRs (eg. see my PR that has been waiting for months) and some of the data is out of date. 
 * [Why some OLAP databases are faster than others](https://github.com/alberttwong/databasecomparison)
