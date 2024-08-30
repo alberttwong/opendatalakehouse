@@ -22,6 +22,9 @@ The Data Lakehouse Readiness Score is a quantitative measure that assesses a dat
 | SingleStore            | R\*          | Glue, Snowflake   | 0     |
 | Umbra DB \| CedarDB    | No Data      | \-                | 0     |
 
+Scoring:
+* RW = 5 points, R\*W\* = 3 points, R = 1 point
+  
 Key:
 * R\* = Can read at least one of the open table formats
 * R = Can read at least one of the open table formats using a data catalog
