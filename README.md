@@ -1,6 +1,6 @@
 # Data Lakehouse Readiness Score
 
-The Data Lakehouse Readiness Score is a quantitative measure that assesses a database's vendor support of Apache Iceberg, Apache Hudi and Delta Lake using a data catalog like Hive Metastore (HMS), Glue, Snowflake Catalog, or Unity Catalog.  
+The Data Lakehouse Readiness Score is a quantitative measure that assesses a database or query engine or analytics engine support of Apache Iceberg, Apache Hudi and Delta Lake using a data catalog like Hive Metastore (HMS), Glue, Snowflake Catalog, or Unity Catalog.  
 |                        | Table Format | Catalog           | Score |
 | ---------------------- | ------------ | ----------------- | ----- |
 | Clickhouse             | R\*          | \-                | 0     |
