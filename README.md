@@ -1,7 +1,6 @@
 # Data Lakehouse Readiness Score
 
-The Data Lakehouse Readiness Score is a quantitative measure that assesses a database's vendor support of Apache Iceberg, Apache Hudi and Delta Lake using a data catalog like Hive Metastore (HMS), Glue, Snowflake Catalog, or Unity Catalog.  Some of the raw data to create the score can be found at https://github.com/sundeck-io/tableformats.
-
+The Data Lakehouse Readiness Score is a quantitative measure that assesses a database's vendor support of Apache Iceberg, Apache Hudi and Delta Lake using a data catalog like Hive Metastore (HMS), Glue, Snowflake Catalog, or Unity Catalog.  
 |                        | Table Format | Catalog           | Score |
 | ---------------------- | ------------ | ----------------- | ----- |
 | Clickhouse             | R\*          | \-                | 0     |
@@ -30,3 +29,7 @@ Key:
 * R = Can read at least one of the open table formats using a data catalog
 * R\*W\* = Can read and write at least one of the open table formats using a data catalog
 * RW = Can read and write all 3 of major open table formats using a data datalog
+
+### Additional Reading
+* Some of the raw data to create the score can be found at https://github.com/sundeck-io/tableformats.
+* [Why some OLAP databases are faster than others](https://github.com/alberttwong/databasecomparison)
