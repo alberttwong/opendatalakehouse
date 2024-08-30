@@ -2,25 +2,25 @@
 
 The Data Lakehouse Readiness Score is a quantitative measure that assesses a database's vendor support of Apache Iceberg, Apache Hudi and Delta Lake using a data catalog like Hive Metastore (HMS), Glue, Iceberg REST Catalog, or Unity Catalog.  Some of the raw data to create the score can be found at https://github.com/sundeck-io/tableformats.
 
-|                        | Data Lakehouse Readiness Score |
-| ---------------------- | ------------------------------ |
-| Clickhouse             | R\*                            |
-| StarRocks \| CelerData | R\*W\*                         |
-| Apache Druid \| Imply  | R\*                            |
-| PrestoDB               | R\*W\*                         |
-| TrinoDB \| StarBurst   | R\*W\*                         |
-| DuckDB \| Motherduck   | R\*                             |
-| AWS Redshift           | R\*                            |
-| GCP BigQuery           | R\*                            |
-| Snowflake              | R\*W\*                         |
-| Polars                 | R\*W\*                         |
-| Daft                   | R\*W\*                         |
-| AWS Athena             | R\*W\*                         |
-| AWS Redshift Spectrum  | R\*W\*                         |
-| Dremio                 | R\*W\*                         |
-| Databend               | R                              |
-| SingleStore            | R\*W\*                         |
-| Umbra DB \| CedarDB    | No Data                        |
+|                        | Table Format | Catalog           | Score |
+| ---------------------- | ------------ | ----------------- | ----- |
+| Clickhouse             | R\*          | \-                | 0     |
+| StarRocks \| CelerData | R\*W\*       | HMS, Glue         | 3     |
+| Apache Druid \| Imply  | R\*          | \-                | 0     |
+| PrestoDB               | R\*W\*       | HMS, Glue         | 3     |
+| TrinoDB \| StarBurst   | R\*W\*       | HMS, Glue         | 3     |
+| DuckDB \| Motherduck   | R\*          | \-                | 0     |
+| AWS Redshift           | R\*          | \-                | 0     |
+| GCP BigQuery           | R\*          | \-                | 0     |
+| Snowflake              | R\*W\*       | Snowflake         | 3     |
+| Polars                 | R\*W\*       | HMS, Glue         | 3     |
+| Daft                   | R\*W\*       | HMS, Glue         | 3     |
+| AWS Athena             | R\*W\*       | Glue              | 3     |
+| AWS Redshift Spectrum  | R\*W\*       | Glue              | 3     |
+| Dremio                 | R\*W\*       | HMS, Glue, Nessie | 3     |
+| Databend               | R            | HMS               | 1     |
+| SingleStore            | R\*          | Glue, Snowflake   | 0     |
+| Umbra DB \| CedarDB    | No Data      | \-                | 0     |
 
 Key:
 * R\* = Can read at least one of the open table formats
