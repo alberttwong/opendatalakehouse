@@ -39,3 +39,5 @@ Key:
 * [Why some OLAP databases are faster than others](https://github.com/alberttwong/databasecomparison)
 * [Why are there benchmarks for some databases but not for others? You can thank Oracle and where are we now?](https://atwong.medium.com/why-are-there-benchmarks-for-some-databases-but-not-for-others-80f628f0b679)
 * [Open Source and Closed Source OLAP databases that can run TPC-H and TPC-DS benchmarks](https://atwong.medium.com/olap-databases-that-can-run-tpc-h-and-tpc-ds-benchmarks-6b4e5300f45b)
+
+<img referrerpolicy="no-referrer-when-downgrade" src="https://static.scarf.sh/a.png?x-pxid=a06aa783-ac07-4240-b582-19cc30f51fae" />
