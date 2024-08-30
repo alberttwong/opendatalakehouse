@@ -14,6 +14,7 @@ The Data Lakehouse Readiness Score is a quantitative measure that assesses a dat
 | Snowflake              | R\*W\*       | Snowflake         | 3     |
 | Polars                 | R\*W\*       | HMS, Glue         | 3     |
 | Daft                   | R\*W\*       | HMS, Glue         | 3     |
+| Apache Spark           | RW           | HMS, Glue         | 5     |
 | AWS Athena             | R\*W\*       | Glue              | 3     |
 | AWS Redshift Spectrum  | R\*W\*       | Glue              | 3     |
 | Dremio                 | R\*W\*       | HMS, Glue         | 3     |
