@@ -9,7 +9,7 @@ The Data Lakehouse Readiness Score is a quantitative measure that assesses a dat
 | PrestoDB               | R\*W\*       | HMS, Glue         | 3     |
 | TrinoDB \| StarBurst   | R\*W\*       | HMS, Glue         | 3     |
 | DuckDB \| Motherduck   | R\*          | \-                | 0     |
-| AWS Redshift           | R\*          | \-                | 0     |
+| AWS Redshift           | R            | Glue              | 1     |
 | GCP BigQuery           | R\*          | \-                | 0     |
 | Snowflake              | R\*W\*       | Snowflake         | 3     |
 | Polars                 | R\*W\*       | HMS, Glue         | 3     |
